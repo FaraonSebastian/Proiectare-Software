@@ -3,7 +3,7 @@ public class NumberOperations {
 
     private List<Integer> x;
     private List<Integer> y;
-    private Random rand;
+    public Random rand;
 
     public NumberOperations() {
         x = new ArrayList<>();
