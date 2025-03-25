@@ -36,7 +36,7 @@ public class NumberOperations {
     }
 
     public List<Integer> getXMinusY() {
-        List<Integer> xMinusY = new ArrayList<
+        List<Integer> xMinusY = new ArrayList<>(x);
         xMinusY.removeAll(y);
         return xMinusY;
     }
